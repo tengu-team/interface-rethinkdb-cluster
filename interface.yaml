@@ -1,0 +1,4 @@
+name: rethinkdb-cluster
+summary: Interface for clustering RethinkDB.
+version: 1
+repo: https://github.com/tengu-team/interface-rethinkdb-cluster.git
