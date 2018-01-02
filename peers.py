@@ -32,10 +32,6 @@ class RethinkDBPeers(RelationBase):
         conv.remove_state('{relation_name}.connected')
         conv.set_state('{relation_name}.departed')
 
-    def dismiss(self):
-        for conv in self.conversations():
-            conv.remove_state('{relation_name}.departed')
-
     def get_peer_addresses(self):
         addresses = []
         for conv in self.conversations():
