@@ -19,4 +19,6 @@ def configure_cluster(cluster):
 
 # Contact Information
 
+## Authors
+
  - Dixan Peña Peña <dixan.pena@tengu.io>
